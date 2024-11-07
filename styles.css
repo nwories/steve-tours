@@ -1,0 +1,51 @@
+.c-item {
+  height: 480px;
+  margin-top: 20px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: fill;
+  filter: brightness(0.6);
+}
+
+.overview {
+  height: 180px;
+  background-color: whitesmoke;
+}
+
+#nav-tour {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+#btn-tour {
+  background-color: whitesmoke;
+}
+
+#name-tour, #email-tour1, #question-tour {
+  border: 1px solid #d3daed;
+  border-radius: 3px;
+  outline: none;
+}
+
+#question-tour {
+  margin-bottom: 10px;
+  min-height: 107px;
+}
+
+.label-tour {
+  font-size: 25px;
+  font-weight: 10px;
+}
+
+.required-tour {
+  color: red;
+}
+
+.sub-btn {
+  float: right;
+}
+
+
